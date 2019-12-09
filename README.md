@@ -3,7 +3,7 @@
 ## Overview
 
 
-[Fluentd](http://fluentd.org/) input plugin that forwards record to Machinist
+[Fluentd](http://fluentd.org/) output plugin that forwards record to Machinist
 
 - [Machinist](https://machinist.iij.jp/)
 
@@ -82,7 +82,7 @@ Key used to authenticate to endpoint\_url (required).
 
 Whether the plugin use ssl to communicate endpoint\_url. Required to be true if
 endpoint\_url is "https://".
-(Default: false)
+(Default: true)
 
 **value\_key**
 
